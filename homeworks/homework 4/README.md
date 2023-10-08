@@ -1,10 +1,9 @@
 # Task
 
-1. Open [the site layout](https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=23%3A2)
-2. It is necessary to present the partitioning of the part into blocks
-3. Create a new folder
-4. Create a file index.html
-5. According to the layout, it is necessary:
-   1. Add all the blocks on the site
-   2. Add all block content (html content)
-   3. All headings, paragraphs buttons and images
+1. We continue to work with the project from the last lesson.
+2. [Figma Layout](https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=186%3A2).
+3. In this homework assignment, we will add stylistics and positioning for the top
+   block of the site.
+4. For all html elements from the last lesson, you need to set styles according to
+   the layout.
+5. Arrange all the elements according to the layout.
