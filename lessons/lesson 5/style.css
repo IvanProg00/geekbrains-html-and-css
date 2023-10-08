@@ -1,0 +1,150 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("./font/Gilroy-Medium.woff2");
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("./font/Gilroy-Bold.woff2");
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("./font/Gilroy-Semibold.woff2");
+	font-weight: lighter;
+}
+
+body {
+	background: #020a18;
+}
+
+h1,
+h2,
+p,
+a,
+button {
+	color: #fff;
+	font-family: "Gilroy";
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	max-width: 1146px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.header {
+	padding: 39px 0;
+	margin-bottom: 160px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+
+.navigation a {
+	font-size: 16px;
+}
+
+.main {
+	margin-bottom: 100px;
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 197px;
+}
+
+.main-content__left-side h2 {
+	color: #3a68b8;
+	font-size: 18px;
+	line-height: 160%;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.main-content__left-side h1 {
+	font-size: 55px;
+	font-weight: 800;
+	line-height: 130%;
+	margin-bottom: 40px;
+}
+
+.main-content__left-side p {
+	font-size: 18px;
+	line-height: 160%;
+	opacity: 0.7;
+	margin-bottom: 50px;
+	max-width: 558px;
+}
+
+.main-content__left-side-btn-list {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.main-content__left-side-btn-list button {
+	padding: 15px 30px;
+	border-radius: 5px;
+	background: #3a68b8;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.main-content__left-side-btn-list .btn_play {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	margin-bottom: 100px;
+}
+
+.card-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	gap: 30px;
+}
+
+.card-list .card {
+	background-color: #132035;
+	border-radius: 10px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: center;
+	text-align: center;
+}
+
+.card-list .card h2 {
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 125%;
+}
+
+.card-list .card p {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 160%;
+}
+
+.card-list .card-big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
